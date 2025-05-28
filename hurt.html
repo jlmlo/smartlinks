@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>jaiél aure smartlink</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background: #fff;
+      border-radius: 14px;
+      width: 320px;
+      padding: 24px 20px;
+      box-sizing: border-box;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 40px 0; /* added margin top and bottom */
+    }
+    .cover-art {
+      width: 200px;
+      height: 200px;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+    .cover-art img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    h1 {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin: 0 0 6px 0;
+      color: #000;
+      text-align: center;
+    }
+    p.subtitle {
+      font-weight: 400;
+      font-size: 0.85rem;
+      margin: 0 0 20px 0;
+      color: #333;
+      text-align: center;
+    }
+    nav {
+      width: 100%;
+    }
+    .service-item {
+      display: flex;
+      align-items: center;
+      background: #f7f7f7;
+      border-radius: 10px;
+      margin-bottom: 12px;
+      padding: 10px 12px;
+      cursor: pointer;
+      text-decoration: none;
+      color: #000;
+      transition: background 0.2s ease;
+    }
+    .service-item:hover {
+      background: #e0e0e0;
+    }
+    .service-logo {
+      width: 32px;
+      height: 32px;
+      margin-right: 14px;
+      flex-shrink: 0;
+    }
+    .service-texts {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .service-name {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin: 0;
+    }
+    .service-action {
+      font-size: 0.8rem;
+      color: #555;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cover-art">
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/99/fd/1899fd49-d784-6c02-7346-078c79ba3f44/199350649882.jpg/600x600bb.jpg" alt="coverart" />
+    </div>
+    <h1>jaiél aure - hurt</h1>
+    <p class="subtitle">Choose your music service below</p>
+    <nav>
+      <a class="service-item" href="https://music.apple.com/album/hurt-single/1814587317" target="_blank" rel="noopener noreferrer">
+        <img class="service-logo" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Apple_Music_icon.svg" alt="Apple Music" />
+        <div class="service-texts">
+          <p class="service-name">Apple Music</p>
+          <p class="service-action">Listen</p>
+        </div>
+      </a>
+      <a class="service-item" href="https://www.music.amazon.com/music/player/albums/B0F8QYNFCN" target="_blank" rel="noopener noreferrer">
+        <img class="service-logo" src="https://lilychiam.com/wp-content/uploads/2024/09/amazon-music-logo.webp" alt="Amazon Music" />
+        <div class="service-texts">
+          <p class="service-name">Amazon Music</p>
+          <p class="service-action">Listen</p>
+        </div>
+      </a>
+      <a class="service-item" href="https://itunes.apple.com/us/album/hurt-single/1814587317" target="_blank" rel="noopener noreferrer">
+        <img class="service-logo" src="https://cdn.iconscout.com/icon/free/png-256/free-itunes-icon-download-in-svg-png-gif-file-formats--ios-11-pack-user-interface-icons-461595.png" alt="iTunes" />
+        <div class="service-texts">
+          <p class="service-name">iTunes</p>
+          <p class="service-action">Buy</p>
+        </div>
+      </a>
+      <a class="service-item" href="https://open.spotify.com/track/6BkKzBwYM33wDLUsnFULyy" target="_blank" rel="noopener noreferrer">
+        <img class="service-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png" alt="Spotify" />
+        <div class="service-texts">
+          <p class="service-name">Spotify</p>
+          <p class="service-action">Listen</p>
+        </div>
+      </a>
+      <a class="service-item" href="https://music.youtube.com/watch?v=QqN4cm860Gc" target="_blank" rel="noopener noreferrer">
+        <img class="service-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/2048px-Youtube_Music_icon.svg.png" alt="YouTube Music" />
+        <div class="service-texts">
+          <p class="service-name">YouTube Music</p>
+          <p class="service-action">Listen</p>
+        </div>
+      </a>
+      <a class="service-item" href="https://www.youtube.com/watch?v=zX_IqbbCi3I" target="_blank" rel="noopener noreferrer">
+        <img class="service-logo" src="https://static.vecteezy.com/system/resources/previews/016/716/475/non_2x/youtube-icon-free-png.png" alt="YouTube" />
+        <div class="service-texts">
+          <p class="service-name">YouTube</p>
+          <p class="service-action">Watch</p>
+        </div>
+      </a>
+      <a class="service-item" href="https://dzr.page.link/DJQjj1RTQMxV5HLUA" target="_blank" rel="noopener noreferrer">
+        <img class="service-logo" src="https://images.icon-icons.com/2108/PNG/512/deezer_icon_130963.png" alt="Deezer" />
+        <div class="service-texts">
+          <p class="service-name">Deezer</p>
+          <p class="service-action">Play</p>
+        </div>
+      </a>
+      <a class="service-item" href="https://shop.jaielaure.com" target="_blank" rel="noopener noreferrer">
+        <img class="service-logo" src="https://cdn-icons-png.flaticon.com/512/181/181651.png" alt="Merch Store" />
+        <div class="service-texts">
+          <p class="service-name">Merch</p>
+          <p class="service-action">Buy</p>
+        </div>
+      </a>
+    </nav>
+  </div>
+</body>
+</html>
